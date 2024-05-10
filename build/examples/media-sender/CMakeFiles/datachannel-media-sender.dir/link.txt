@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/datachannel-media-sender.dir/main.cpp.o -o media-sender  -Wl,-rpath,/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build ../../libdatachannel.so.0.20.1 

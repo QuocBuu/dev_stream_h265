@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/datachannel-client-benchmark.dir/main.cpp.o CMakeFiles/datachannel-client-benchmark.dir/parse_cl.cpp.o -o client-benchmark  -Wl,-rpath,/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build ../../libdatachannel.so.0.20.1 

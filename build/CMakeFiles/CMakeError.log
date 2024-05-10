@@ -1,0 +1,175 @@
+Performing C SOURCE FILE Test have_sa_len failed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9491e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9491e.dir/build.make CMakeFiles/cmTC_9491e.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9491e.dir/src.c.o
+/usr/bin/cc -Dhave_sa_len -I/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/deps/usrsctp/usrsctplib -fPIE -o CMakeFiles/cmTC_9491e.dir/src.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c:7:38: error: ‘struct sockaddr’ has no member named ‘sa_len’
+    7 |   (void)sizeof(((struct sockaddr *)0)->sa_len);
+      |                                      ^~
+gmake[1]: *** [CMakeFiles/cmTC_9491e.dir/build.make:78: CMakeFiles/cmTC_9491e.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9491e/fast] Error 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr *)0)->sa_len);
+  return 0;
+}
+
+Performing C SOURCE FILE Test have_sin_len failed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_08bef/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_08bef.dir/build.make CMakeFiles/cmTC_08bef.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08bef.dir/src.c.o
+/usr/bin/cc -Dhave_sin_len -I/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/deps/usrsctp/usrsctplib -fPIE -o CMakeFiles/cmTC_08bef.dir/src.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c:7:41: error: ‘struct sockaddr_in’ has no member named ‘sin_len’
+    7 |   (void)sizeof(((struct sockaddr_in *)0)->sin_len);
+      |                                         ^~
+gmake[1]: *** [CMakeFiles/cmTC_08bef.dir/build.make:78: CMakeFiles/cmTC_08bef.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_08bef/fast] Error 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <netinet/in.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_in *)0)->sin_len);
+  return 0;
+}
+
+Performing C SOURCE FILE Test have_sin6_len failed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4f506/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4f506.dir/build.make CMakeFiles/cmTC_4f506.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f506.dir/src.c.o
+/usr/bin/cc -Dhave_sin6_len -I/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/deps/usrsctp/usrsctplib -fPIE -o CMakeFiles/cmTC_4f506.dir/src.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c:7:42: error: ‘struct sockaddr_in6’ has no member named ‘sin6_len’
+    7 |   (void)sizeof(((struct sockaddr_in6 *)0)->sin6_len);
+      |                                          ^~
+gmake[1]: *** [CMakeFiles/cmTC_4f506.dir/build.make:78: CMakeFiles/cmTC_4f506.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_4f506/fast] Error 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <netinet/in.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_in6 *)0)->sin6_len);
+  return 0;
+}
+
+Performing C SOURCE FILE Test have_sconn_len failed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7fcb3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7fcb3.dir/build.make CMakeFiles/cmTC_7fcb3.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7fcb3.dir/src.c.o
+/usr/bin/cc -Dhave_sconn_len -I/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/deps/usrsctp/usrsctplib -fPIE -o CMakeFiles/cmTC_7fcb3.dir/src.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c:6:43: error: ‘struct sockaddr_conn’ has no member named ‘sconn_len’
+    6 |   (void)sizeof(((struct sockaddr_conn *)0)->sconn_len);
+      |                                           ^~
+gmake[1]: *** [CMakeFiles/cmTC_7fcb3.dir/build.make:78: CMakeFiles/cmTC_7fcb3.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_7fcb3/fast] Error 2
+
+
+Source file was:
+
+#include <usrsctp.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_conn *)0)->sconn_len);
+  return 0;
+}
+
+Determining if the include file machine/types.h exists failed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0e91c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0e91c.dir/build.make CMakeFiles/cmTC_0e91c.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e91c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_0e91c.dir/CheckIncludeFile.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: machine/types.h: No such file or directory
+    1 | #include <machine/types.h>
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_0e91c.dir/build.make:78: CMakeFiles/cmTC_0e91c.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_0e91c/fast] Error 2
+
+
+
+Determining if the include file sys/int_types.h exists failed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6d84c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6d84c.dir/build.make CMakeFiles/cmTC_6d84c.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d84c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_6d84c.dir/CheckIncludeFile.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/int_types.h: No such file or directory
+    1 | #include <sys/int_types.h>
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_6d84c.dir/build.make:78: CMakeFiles/cmTC_6d84c.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_6d84c/fast] Error 2
+
+
+
+Determining if the include file windows.h exists failed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a444d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a444d.dir/build.make CMakeFiles/cmTC_a444d.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a444d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_a444d.dir/CheckIncludeFile.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: windows.h: No such file or directory
+    1 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_a444d.dir/build.make:78: CMakeFiles/cmTC_a444d.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a444d/fast] Error 2
+
+
+
+Determining if the include file winsock2.h exists failed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a2432/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a2432.dir/build.make CMakeFiles/cmTC_a2432.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2432.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_a2432.dir/CheckIncludeFile.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: winsock2.h: No such file or directory
+    1 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_a2432.dir/build.make:78: CMakeFiles/cmTC_a2432.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a2432/fast] Error 2
+
+
+

@@ -1,0 +1,1122 @@
+The system is: Linux - 6.5.0-21-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_05528/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_05528.dir/build.make CMakeFiles/cmTC_05528.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_05528.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_05528.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_05528.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05528.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_05528.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cctyZVot.s
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/11
+ /usr/include/x86_64-linux-gnu/c++/11
+ /usr/include/c++/11/backward
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_05528.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05528.dir/'
+ as -v --64 -o CMakeFiles/cmTC_05528.dir/CMakeCXXCompilerABI.cpp.o /tmp/cctyZVot.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_05528.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05528.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_05528
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05528.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_05528.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_05528 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_05528' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_05528.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5F6CQm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_05528 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_05528.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_05528' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_05528.'
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/11]
+    add: [/usr/include/x86_64-linux-gnu/c++/11]
+    add: [/usr/include/c++/11/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+  collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_05528/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_05528.dir/build.make CMakeFiles/cmTC_05528.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_05528.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_05528.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_05528.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05528.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_05528.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cctyZVot.s]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/11]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_05528.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05528.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_05528.dir/CMakeCXXCompilerABI.cpp.o /tmp/cctyZVot.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_05528.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05528.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_05528]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05528.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_05528.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_05528 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_05528' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_05528.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5F6CQm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_05528 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_05528.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc5F6CQm.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_05528] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_05528.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_abcfc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_abcfc.dir/build.make CMakeFiles/cmTC_abcfc.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_abcfc.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_abcfc.dir/CheckIncludeFile.cxx.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_abcfc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abcfc.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_abcfc.dir/CheckIncludeFile.cxx.o -o cmTC_abcfc 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fd01e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fd01e.dir/build.make CMakeFiles/cmTC_fd01e.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fd01e.dir/src.cxx.o
+/usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -o CMakeFiles/cmTC_fd01e.dir/src.cxx.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fd01e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd01e.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_fd01e.dir/src.cxx.o -o cmTC_fd01e 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_01a9b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_01a9b.dir/build.make CMakeFiles/cmTC_01a9b.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_01a9b.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -fPIE   -v -o CMakeFiles/cmTC_01a9b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_01a9b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_01a9b.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_01a9b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fPIE -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccGcIZQq.s
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_01a9b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_01a9b.dir/'
+ as -v --64 -o CMakeFiles/cmTC_01a9b.dir/CMakeCCompilerABI.c.o /tmp/ccGcIZQq.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_01a9b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_01a9b.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_01a9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01a9b.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_01a9b.dir/CMakeCCompilerABI.c.o -o cmTC_01a9b 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_01a9b' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_01a9b.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cctclksa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_01a9b /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_01a9b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_01a9b' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_01a9b.'
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_01a9b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_01a9b.dir/build.make CMakeFiles/cmTC_01a9b.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_01a9b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -fPIE   -v -o CMakeFiles/cmTC_01a9b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_01a9b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_01a9b.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_01a9b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fPIE -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccGcIZQq.s]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_01a9b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_01a9b.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_01a9b.dir/CMakeCCompilerABI.c.o /tmp/ccGcIZQq.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_01a9b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_01a9b.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_01a9b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01a9b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_01a9b.dir/CMakeCCompilerABI.c.o -o cmTC_01a9b ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_01a9b' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_01a9b.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cctclksa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_01a9b /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_01a9b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cctclksa.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_01a9b] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_01a9b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if files sys/queue.h exist passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e0ee9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e0ee9.dir/build.make CMakeFiles/cmTC_e0ee9.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0ee9.dir/have_sys_queue_h.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_e0ee9.dir/have_sys_queue_h.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CheckIncludeFiles/have_sys_queue_h.c
+Linking C executable cmTC_e0ee9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0ee9.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_e0ee9.dir/have_sys_queue_h.c.o -o cmTC_e0ee9 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/socket.h;linux/if_addr.h exist passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a1d83/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a1d83.dir/build.make CMakeFiles/cmTC_a1d83.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1d83.dir/have_linux_if_addr_h.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_a1d83.dir/have_linux_if_addr_h.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CheckIncludeFiles/have_linux_if_addr_h.c
+Linking C executable cmTC_a1d83
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1d83.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_a1d83.dir/have_linux_if_addr_h.c.o -o cmTC_a1d83 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/socket.h;linux/rtnetlink.h exist passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b1d63/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b1d63.dir/build.make CMakeFiles/cmTC_b1d63.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1d63.dir/have_linux_rtnetlink_h.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_b1d63.dir/have_linux_rtnetlink_h.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CheckIncludeFiles/have_linux_rtnetlink_h.c
+Linking C executable cmTC_b1d63
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1d63.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_b1d63.dir/have_linux_rtnetlink_h.c.o -o cmTC_b1d63 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h;netinet/in.h;netinet/ip.h;netinet/ip_icmp.h exist passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f7fd2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f7fd2.dir/build.make CMakeFiles/cmTC_f7fd2.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7fd2.dir/have_netinet_ip_icmp_h.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_f7fd2.dir/have_netinet_ip_icmp_h.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CheckIncludeFiles/have_netinet_ip_icmp_h.c
+Linking C executable cmTC_f7fd2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7fd2.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_f7fd2.dir/have_netinet_ip_icmp_h.c.o -o cmTC_f7fd2 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h;sys/socket.h;net/route.h exist passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_70758/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_70758.dir/build.make CMakeFiles/cmTC_70758.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70758.dir/have_net_route_h.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_70758.dir/have_net_route_h.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CheckIncludeFiles/have_net_route_h.c
+Linking C executable cmTC_70758
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70758.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_70758.dir/have_net_route_h.c.o -o cmTC_70758 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdatomic.h exist passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ac44f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ac44f.dir/build.make CMakeFiles/cmTC_ac44f.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac44f.dir/have_stdatomic_h.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_ac44f.dir/have_stdatomic_h.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CheckIncludeFiles/have_stdatomic_h.c
+Linking C executable cmTC_ac44f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac44f.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_ac44f.dir/have_stdatomic_h.c.o -o cmTC_ac44f 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file usrsctp.h exists passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1c904/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1c904.dir/build.make CMakeFiles/cmTC_1c904.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c904.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -I/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/deps/usrsctp/usrsctplib -fPIE -o CMakeFiles/cmTC_1c904.dir/CheckIncludeFile.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1c904
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c904.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_1c904.dir/CheckIncludeFile.c.o -o cmTC_1c904 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test has_wfloat_equal succeeded with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_79bc7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_79bc7.dir/build.make CMakeFiles/cmTC_79bc7.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79bc7.dir/src.c.o
+/usr/bin/cc -Dhas_wfloat_equal -I/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/deps/usrsctp/usrsctplib -std=c99 -pedantic -Wall -Wextra  -fPIE   -Wfloat-equal -o CMakeFiles/cmTC_79bc7.dir/src.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_79bc7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79bc7.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra  CMakeFiles/cmTC_79bc7.dir/src.c.o -o cmTC_79bc7 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test has_wshadow succeeded with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_589e3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_589e3.dir/build.make CMakeFiles/cmTC_589e3.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_589e3.dir/src.c.o
+/usr/bin/cc -Dhas_wshadow -I/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/deps/usrsctp/usrsctplib -std=c99 -pedantic -Wall -Wextra -Wfloat-equal  -fPIE   -Wshadow -o CMakeFiles/cmTC_589e3.dir/src.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_589e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_589e3.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal  CMakeFiles/cmTC_589e3.dir/src.c.o -o cmTC_589e3 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test has_wpointer_aritih succeeded with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_65955/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_65955.dir/build.make CMakeFiles/cmTC_65955.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65955.dir/src.c.o
+/usr/bin/cc -Dhas_wpointer_aritih -I/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/deps/usrsctp/usrsctplib -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow  -fPIE   -Wpointer-arith -o CMakeFiles/cmTC_65955.dir/src.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_65955
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65955.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow  CMakeFiles/cmTC_65955.dir/src.c.o -o cmTC_65955 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test has_wunreachable_code succeeded with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6bb4a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6bb4a.dir/build.make CMakeFiles/cmTC_6bb4a.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6bb4a.dir/src.c.o
+/usr/bin/cc -Dhas_wunreachable_code -I/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/deps/usrsctp/usrsctplib -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith  -fPIE   -Wunreachable-code -o CMakeFiles/cmTC_6bb4a.dir/src.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6bb4a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bb4a.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith  CMakeFiles/cmTC_6bb4a.dir/src.c.o -o cmTC_6bb4a 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test has_winit_self succeeded with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_41fb4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_41fb4.dir/build.make CMakeFiles/cmTC_41fb4.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41fb4.dir/src.c.o
+/usr/bin/cc -Dhas_winit_self -I/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/deps/usrsctp/usrsctplib -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code  -fPIE   -Winit-self -o CMakeFiles/cmTC_41fb4.dir/src.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_41fb4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41fb4.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code  CMakeFiles/cmTC_41fb4.dir/src.c.o -o cmTC_41fb4 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test has_wno_unused_function succeeded with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c13ee/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c13ee.dir/build.make CMakeFiles/cmTC_c13ee.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c13ee.dir/src.c.o
+/usr/bin/cc -Dhas_wno_unused_function -I/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/deps/usrsctp/usrsctplib -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self  -fPIE   -Wno-unused-function -o CMakeFiles/cmTC_c13ee.dir/src.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c13ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c13ee.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self  CMakeFiles/cmTC_c13ee.dir/src.c.o -o cmTC_c13ee 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test has_wno_unused_parameter succeeded with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_698e4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_698e4.dir/build.make CMakeFiles/cmTC_698e4.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_698e4.dir/src.c.o
+/usr/bin/cc -Dhas_wno_unused_parameter -I/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/deps/usrsctp/usrsctplib -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function  -fPIE   -Wno-unused-parameter -o CMakeFiles/cmTC_698e4.dir/src.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_698e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_698e4.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function  CMakeFiles/cmTC_698e4.dir/src.c.o -o cmTC_698e4 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test has_wno_unreachable_code succeeded with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_94f4f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_94f4f.dir/build.make CMakeFiles/cmTC_94f4f.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94f4f.dir/src.c.o
+/usr/bin/cc -Dhas_wno_unreachable_code -I/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/deps/usrsctp/usrsctplib -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter  -fPIE   -Wno-unreachable-code -o CMakeFiles/cmTC_94f4f.dir/src.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_94f4f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94f4f.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter  CMakeFiles/cmTC_94f4f.dir/src.c.o -o cmTC_94f4f 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test has_wstrict_prototypes succeeded with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5d774/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5d774.dir/build.make CMakeFiles/cmTC_5d774.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d774.dir/src.c.o
+/usr/bin/cc -Dhas_wstrict_prototypes -I/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/deps/usrsctp/usrsctplib -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code  -fPIE   -Wstrict-prototypes -o CMakeFiles/cmTC_5d774.dir/src.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5d774
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d774.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code  CMakeFiles/cmTC_5d774.dir/src.c.o -o cmTC_5d774 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test has_wno_address_of_packed_member succeeded with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_825a6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_825a6.dir/build.make CMakeFiles/cmTC_825a6.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_825a6.dir/src.c.o
+/usr/bin/cc -Dhas_wno_address_of_packed_member -I/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/deps/usrsctp/usrsctplib -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code -Wstrict-prototypes  -fPIE   -Wno-address-of-packed-member -o CMakeFiles/cmTC_825a6.dir/src.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_825a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_825a6.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code -Wstrict-prototypes  CMakeFiles/cmTC_825a6.dir/src.c.o -o cmTC_825a6 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test has_wno_deprecated_declarations succeeded with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b1f09/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b1f09.dir/build.make CMakeFiles/cmTC_b1f09.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1f09.dir/src.c.o
+/usr/bin/cc -Dhas_wno_deprecated_declarations -I/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/deps/usrsctp/usrsctplib -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code -Wstrict-prototypes -Wno-address-of-packed-member  -fPIE   -Wno-deprecated-declarations -o CMakeFiles/cmTC_b1f09.dir/src.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b1f09
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1f09.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code -Wstrict-prototypes -Wno-address-of-packed-member  CMakeFiles/cmTC_b1f09.dir/src.c.o -o cmTC_b1f09 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file arpa/inet.h exists passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f52e3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f52e3.dir/build.make CMakeFiles/cmTC_f52e3.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f52e3.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_f52e3.dir/CheckIncludeFile.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f52e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f52e3.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_f52e3.dir/CheckIncludeFile.c.o -o cmTC_f52e3 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file byteswap.h exists passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f9930/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f9930.dir/build.make CMakeFiles/cmTC_f9930.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9930.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_f9930.dir/CheckIncludeFile.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f9930
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9930.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_f9930.dir/CheckIncludeFile.c.o -o cmTC_f9930 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dc6c1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dc6c1.dir/build.make CMakeFiles/cmTC_dc6c1.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc6c1.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_dc6c1.dir/CheckIncludeFile.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dc6c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc6c1.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_dc6c1.dir/CheckIncludeFile.c.o -o cmTC_dc6c1 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file netinet/in.h exists passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6841c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6841c.dir/build.make CMakeFiles/cmTC_6841c.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6841c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_6841c.dir/CheckIncludeFile.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6841c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6841c.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_6841c.dir/CheckIncludeFile.c.o -o cmTC_6841c 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ae217/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ae217.dir/build.make CMakeFiles/cmTC_ae217.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae217.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_ae217.dir/CheckIncludeFile.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ae217
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae217.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_ae217.dir/CheckIncludeFile.c.o -o cmTC_ae217 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1359c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1359c.dir/build.make CMakeFiles/cmTC_1359c.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1359c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_1359c.dir/CheckIncludeFile.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1359c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1359c.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_1359c.dir/CheckIncludeFile.c.o -o cmTC_1359c 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/socket.h exists passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bb897/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bb897.dir/build.make CMakeFiles/cmTC_bb897.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb897.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_bb897.dir/CheckIncludeFile.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bb897
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb897.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_bb897.dir/CheckIncludeFile.c.o -o cmTC_bb897 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0a389/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0a389.dir/build.make CMakeFiles/cmTC_0a389.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a389.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_0a389.dir/CheckIncludeFile.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0a389
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a389.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_0a389.dir/CheckIncludeFile.c.o -o cmTC_0a389 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7841d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7841d.dir/build.make CMakeFiles/cmTC_7841d.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7841d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_7841d.dir/CheckIncludeFile.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7841d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7841d.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_7841d.dir/CheckIncludeFile.c.o -o cmTC_7841d 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_240dd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_240dd.dir/build.make CMakeFiles/cmTC_240dd.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_240dd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaction -fPIE -o CMakeFiles/cmTC_240dd.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_240dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_240dd.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaction CMakeFiles/cmTC_240dd.dir/CheckFunctionExists.c.o -o cmTC_240dd 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function inet_aton exists passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_353bc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_353bc.dir/build.make CMakeFiles/cmTC_353bc.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_353bc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=inet_aton -fPIE -o CMakeFiles/cmTC_353bc.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_353bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_353bc.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=inet_aton CMakeFiles/cmTC_353bc.dir/CheckFunctionExists.c.o -o cmTC_353bc 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function inet_pton exists passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_90b11/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_90b11.dir/build.make CMakeFiles/cmTC_90b11.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90b11.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=inet_pton -fPIE -o CMakeFiles/cmTC_90b11.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_90b11
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90b11.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=inet_pton CMakeFiles/cmTC_90b11.dir/CheckFunctionExists.c.o -o cmTC_90b11 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function usleep exists passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5825b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5825b.dir/build.make CMakeFiles/cmTC_5825b.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5825b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=usleep -fPIE -o CMakeFiles/cmTC_5825b.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5825b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5825b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=usleep CMakeFiles/cmTC_5825b.dir/CheckFunctionExists.c.o -o cmTC_5825b 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_789e5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_789e5.dir/build.make CMakeFiles/cmTC_789e5.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_789e5.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_789e5.dir/CheckIncludeFile.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_789e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_789e5.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_789e5.dir/CheckIncludeFile.c.o -o cmTC_789e5 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4317a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4317a.dir/build.make CMakeFiles/cmTC_4317a.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4317a.dir/UINT8_T.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_4317a.dir/UINT8_T.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CheckTypeSize/UINT8_T.c
+Linking C executable cmTC_4317a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4317a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_4317a.dir/UINT8_T.c.o -o cmTC_4317a 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ca84e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ca84e.dir/build.make CMakeFiles/cmTC_ca84e.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca84e.dir/UINT16_T.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_ca84e.dir/UINT16_T.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CheckTypeSize/UINT16_T.c
+Linking C executable cmTC_ca84e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca84e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ca84e.dir/UINT16_T.c.o -o cmTC_ca84e 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f30c6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f30c6.dir/build.make CMakeFiles/cmTC_f30c6.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f30c6.dir/UINT32_T.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_f30c6.dir/UINT32_T.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CheckTypeSize/UINT32_T.c
+Linking C executable cmTC_f30c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f30c6.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f30c6.dir/UINT32_T.c.o -o cmTC_f30c6 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3dc58/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3dc58.dir/build.make CMakeFiles/cmTC_3dc58.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3dc58.dir/UINT64_T.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_3dc58.dir/UINT64_T.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CheckTypeSize/UINT64_T.c
+Linking C executable cmTC_3dc58
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3dc58.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3dc58.dir/UINT64_T.c.o -o cmTC_3dc58 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3dd51/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3dd51.dir/build.make CMakeFiles/cmTC_3dd51.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3dd51.dir/INT32_T.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_3dd51.dir/INT32_T.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CheckTypeSize/INT32_T.c
+Linking C executable cmTC_3dd51
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3dd51.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3dd51.dir/INT32_T.c.o -o cmTC_3dd51 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_804b1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_804b1.dir/build.make CMakeFiles/cmTC_804b1.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_804b1.dir/SIZEOF_UNSIGNED_LONG.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_804b1.dir/SIZEOF_UNSIGNED_LONG.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG.c
+Linking C executable cmTC_804b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_804b1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_804b1.dir/SIZEOF_UNSIGNED_LONG.c.o -o cmTC_804b1 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aaf2d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aaf2d.dir/build.make CMakeFiles/cmTC_aaf2d.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aaf2d.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_aaf2d.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG_LONG.c
+Linking C executable cmTC_aaf2d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aaf2d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_aaf2d.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o -o cmTC_aaf2d 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_INLINE succeeded with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e3d1f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e3d1f.dir/build.make CMakeFiles/cmTC_e3d1f.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3d1f.dir/src.c.o
+/usr/bin/cc -DHAVE_INLINE  -fPIE -o CMakeFiles/cmTC_e3d1f.dir/src.c.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e3d1f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3d1f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e3d1f.dir/src.c.o -o cmTC_e3d1f 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+inline void func(); void func() { } int main() { func(); return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_95e9c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_95e9c.dir/build.make CMakeFiles/cmTC_95e9c.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_95e9c.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -fPIE   -fvisibility=hidden -o CMakeFiles/cmTC_95e9c.dir/src.cxx.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_95e9c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95e9c.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_95e9c.dir/src.cxx.o -o cmTC_95e9c 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_28df9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_28df9.dir/build.make CMakeFiles/cmTC_28df9.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_28df9.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -fPIE   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_28df9.dir/src.cxx.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_28df9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28df9.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_28df9.dir/src.cxx.o -o cmTC_28df9 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_33727/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_33727.dir/build.make CMakeFiles/cmTC_33727.dir/build
+gmake[1]: Entering directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_33727.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR  -fPIE -o CMakeFiles/cmTC_33727.dir/src.cxx.o -c /home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.cxx
+/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.cxx:2:33: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+    2 |     int main() { return somefunc();}
+      |                         ~~~~~~~~^~
+/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp/src.cxx:1:37: note: declared here
+    1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+      |                                     ^~~~~~~~
+Linking CXX executable cmTC_33727
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33727.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_33727.dir/src.cxx.o -o cmTC_33727 
+gmake[1]: Leaving directory '/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}

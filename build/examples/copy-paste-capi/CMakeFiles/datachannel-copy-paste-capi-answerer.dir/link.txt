@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/datachannel-copy-paste-capi-answerer.dir/answerer.c.o -o answerer  -Wl,-rpath,/home/buu/Workspace/PJ_Camera_OTA/libdatachannel-master/libdatachannel/build ../../libdatachannel.so.0.20.1 
